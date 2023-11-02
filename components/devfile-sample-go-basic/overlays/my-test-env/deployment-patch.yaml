@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/mdsaud-tenant/custom-test-go/devfile-sample-go-basic@sha256:08f073958e871cd2e9cdfda17de6080de763e3a17d5449782ccc22dec83794c3
+        name: my-go
+        resources: {}
+status: {}
