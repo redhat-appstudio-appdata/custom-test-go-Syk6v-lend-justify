@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/mdsaud-tenant/custom-test-go/devfile-sample-go-basic@sha256:0f2fe264cb47f8b8a117ece09b1782197b7a0bc4ed1fa989a48026f477e283b5
+      - image: quay.io/redhat-user-workloads/mdsaud-tenant/custom-test-go/devfile-sample-go-basic@sha256:2d6a9edbc5a0c1a82f22075cce0211782ba80ff6030a6e947fef00d5e1f46978
         name: my-go
         resources: {}
 status: {}
